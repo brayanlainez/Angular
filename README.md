@@ -3,8 +3,19 @@ Cursos o Talleres de Angular
 
 Instalar Node
 
-Instalar 
+Instalar Angular Cli
     npm install -g @angular/cli
+
+Versión
+    ng version
+
+Crear y Ejecutar la aplicación
+    ng new my-app
+    cd my-app
+    ng serve --open
+
+Crear un componente desde la terminal
+    ng g c components/footer
 
 # TypeScript
 
@@ -19,6 +30,10 @@ Compilar
 Crear archivo de configuracion para compilar
     tsc --init
 
-Autocomplilar al guardar
+Autocompilar al guardar
     tsc -w
     tsc --watch
+
+Documentación
+    https://angular.io/
+    https://cli.angular.io/
