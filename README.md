@@ -1,23 +1,8 @@
-# Angular
-Cursos o Talleres de Angular
+# Cursos o Talleres de Angular
 
-Instalar Node
+Instalar NodeJS
 
-Instalar Angular Cli
-    npm install -g @angular/cli
-
-Versión
-    ng version
-
-Crear y Ejecutar la aplicación
-    ng new my-app
-    cd my-app
-    ng serve --open
-
-Crear un componente desde la terminal
-    ng g c components/footer
-
-# TypeScript
+## TypeScript
 
 Instalar
     npm install -g typescript
@@ -33,6 +18,45 @@ Crear archivo de configuracion para compilar
 Autocompilar al guardar
     tsc -w
     tsc --watch
+
+# Angular
+
+Instalar Angular Cli
+    npm install -g @angular/cli
+
+Versión
+    ng version
+
+Crear y Ejecutar la aplicación 
+No se permiten numeros al principio
+    ng new my-app
+    cd my-app
+    ng serve --open
+
+Crear un Componente
+    ng g c components/name_componente
+
+# npm
+Crear un Servicio
+    ng g s services/name_servicio
+
+Crear un Pipe
+    ng g p pipes/name_pipe
+
+Instalar Bootstrap
+    npm install bootstrap --save
+
+Instalar Jquery
+    npm install jquery --save
+
+Instalar Popper
+    npm install popper.js --save
+
+Instalar Http
+
+ npm install --save @angular/http
+    
+
 
 Documentación
     https://angular.io/
