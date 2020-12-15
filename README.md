@@ -32,17 +32,26 @@ No se permiten numeros al principio
     ng new my-app
     cd my-app
     ng serve --open
+    
+Añadir el flag 
+No crear archivo html: -it
+No crear archivo css : -is
+No crear archivo test: --spec= false
 
 Crear un Componente
     ng g c components/name_componente
-
-# npm
+    
 Crear un Servicio
     ng g s services/name_servicio
 
 Crear un Pipe
     ng g p pipes/name_pipe
 
+Agrega soporte para una biblioteca externa del proyecto.
+Idiomas en la fechas
+    ng add @angular/localize
+
+# npm
 Instalar Bootstrap
     npm install bootstrap --save
 
@@ -53,11 +62,8 @@ Instalar Popper
     npm install popper.js --save
 
 Instalar Http
-
     npm install --save @angular/http
-
-    ng add @angular/localize
-
+    
 
 Documentación
     https://angular.io/
