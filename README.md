@@ -54,8 +54,9 @@ Instalar Popper
 
 Instalar Http
 
- npm install --save @angular/http
-    
+    npm install --save @angular/http
+
+    ng add @angular/localize
 
 
 Documentación
